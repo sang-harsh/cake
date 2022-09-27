@@ -15,7 +15,7 @@ body{
 }
 
 .single-container{
-      max-width: 420px;
+      min-width: 420px;
       margin: 20px;
       display: block;
       padding-left: 35px;
@@ -24,6 +24,7 @@ body{
       border-style: outset;
       border-color: #15a6b9;
       background-image: url(./images/5305323.jpg);
+      /* background-image: url(./images/bgwood.jpg); */
 }
 
 .views-label{
@@ -127,11 +128,16 @@ a{
       padding: 10px;
     min-width: 185px;
     margin-right: 5px;
-    background-color: #708f85;
+    background-color: #15a6b9;
     color:#ffffff;
     font-size: 18px;
-    border-bottom: 4px solid #000000;
+    border: 2px solid #ffffff;
     text-align: center;
+    border-radius: 10px;
+}
+.shadow-button:hover{
+    background-color: #15b946;
+    color:#000000;
 }
 
 .add-to-phnebook-container{
@@ -139,15 +145,19 @@ a{
     max-width: 400px;
     margin-top: 8px;
     margin-right: 5px;
-    background-color: #708f85;
+    background-color: #15a6b9;
     color:#ffffff;
     font-size: 18px;
     border-bottom: 4px solid #000000;
     text-align: center;
     margin-left: 1px;
+    border-radius: 10px;
 }
-
-.add-to-phnebook-container a{
+.shadow-button-2:hover{
+      background-color: #15b946;
+}
+.add-to-phnebook-container:hover{
+      background-color: #15b946;
       color:#ffffff;
 }
 
@@ -176,4 +186,35 @@ a{
 .share-buttons-container .share-button i{
       padding: 4px;
       color: #ffffff;
+}
+.video-container{
+      margin-left: -15px;
+      margin-bottom: 15px;
+}
+.card{
+      width: 400px;
+      height: 150px;
+}
+.heading h2{
+      color: #0d02a8;
+}
+
+.about-us-table{
+      max-width: 400px;
+}
+
+.payment-info h4{
+      color: #0d02a8;
+}
+.table-row-label{
+      margin: -5px;
+}
+
+.table-row-label-text{
+      font-size: 18px;
+      margin: 8px;
+}
+
+.table-row-value{
+      font-size: 16px;
 }
