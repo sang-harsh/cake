@@ -11,11 +11,10 @@ body{
 .main-container{
       display: flex;
       flex-direction: column;
-      align-items: center;
 }
 
 .single-container{
-      min-width: 420px;
+      width: 420px;
       margin: 20px;
       display: block;
       padding-left: 35px;
@@ -199,6 +198,9 @@ a{
       color: #0d02a8;
 }
 
+
+
+
 .about-us-table{
       max-width: 400px;
 }
@@ -218,3 +220,87 @@ a{
 .table-row-value{
       font-size: 16px;
 }
+
+
+@media screen and (max-width: 768px) {
+      .single-container{
+            width: 620px;
+            margin: 20px;
+            display: block;
+            padding-left: 35px;
+            padding-right: 15px;
+            padding-top: 15px;
+            border-style: outset;
+            border-color: #15a6b9;
+            align-self: center;
+      }
+
+      .profile-pic-div{
+            max-width: 620px;
+            margin-top: 150px;
+            border-radius: 8px;
+      }
+      
+      .profile-pic-img{
+            margin-top: 5px;
+            max-width: 600px;
+            border-radius: 8px;
+            border: 2px solid #ffffff;
+      }
+
+      .firname{
+            font-size: 18px;
+      }
+
+      .customer-name{
+            font-size:18px;
+      }
+
+      .contact-button {
+            width: 120px;
+            font-size: 18px;
+      }
+
+      .contact-description-container-text{
+            font-size: 15px;
+            color: #708f85;
+            font-weight: bolder;
+      }
+
+      .video-container{
+            display: flex;
+            flex-wrap: wrap;
+      }
+
+      .card{
+            width: 30%;
+            box-sizing: border-box;
+            margin: 5px;
+      }
+
+      .contact-description-container-text{
+            font-size: 20px;
+      }
+
+      .whatsapp-container{
+            width: 700px;
+      }
+
+      .input-textbox{
+            padding: 6px 10px;
+            font-size: 20px;
+            border-radius: 7px;
+      }
+      
+      .share-on-whatsapp-button{
+            padding: 8px 8px 6px 8px;
+            width: 150px;
+            font-size: 20px;
+            display: inline-block;
+            background-color: #51B14D;
+            border-radius: 7px;
+            color: white;
+            border: 1px solid #ffffff;
+      }
+}
+    
