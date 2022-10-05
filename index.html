@@ -159,7 +159,8 @@
       <div class="heading">
         <h2>Payment</h2>
       </div>
-        <div style="width:60px;background-color:#0085C4;height:2px;"></div>
+      <div style="width:60px;background-color:#0085C4;height:2px;">
+      </div>
         
         <div class="payment-info">
         <table class="about-us-table">
@@ -237,5 +238,26 @@
         </table>
     </div>  
   </div>
+
+  <div class="single-container">
+    <div class="heading">
+      <h2>Give Feedback</h2>
+    </div>
+    <div style="width:140px; background-color:#0085C4;height:2px;">
+    </div>
+    <form id="feedback-form" novalidate onsubmit="myFunction()">
+      <input type="text" name="feedbackName" id="feedbackName" placeholder="Enter your full name"/>
+
+      <input type="text" name="feedbackName" id="feedbackName" placeholder="Enter your contact"/>
+
+      <input type="text" name="feedbackName" id="feedbackName" placeholder="Enter your Email ID"/>
+
+      <textarea name="feedback" id="feedback" placeholder="Enter your feedback . . ."></textarea>
+      <!-- Message:<br/> -->
+      <input id="feedback-button" type="submit" value="Give Feedback"/>
+  </form>
+  </div>
+
+  <script src="./index.js"></script>
   </body>
 </html>

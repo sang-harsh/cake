@@ -8,6 +8,7 @@ html, body {
 
 * {
       text-decoration: none;
+      box-sizing: border-box;
 }
 
 .main-container{
@@ -59,8 +60,8 @@ html, body {
 }
 
 .contact-buttons {
-      margin: 0 -20px;
-      padding: 20px 20px;
+      margin: 0 -20px 10px 0;
+      padding-top: 20px;
 }
 
 .contact-button {
@@ -191,12 +192,12 @@ padding: 10px;
 
 @media screen and (max-width: 600px) {
       .single-container{
-            width: 480px;
+            width: 525px;
             align-self: center;
       }
 
       .views-label{
-            width: 90px;
+            width: 110px;
             font-size: 16px;
       }
 
@@ -222,7 +223,7 @@ padding: 10px;
       }
 
       .contact-button {
-            width: 90px;
+            width: 105px;
             font-size: 15px;
       }
 
@@ -285,16 +286,44 @@ padding: 10px;
       .shadow-buttons{
             width: 320px;
       }
-      
-      .video-container{
-            
-      }
 
       .card{
             width: 460px;
             margin: 5px;
             display: flex;
             align-content: center;
+      }
+
+      #feedback-form{
+            width: 500px;
+            margin: 10px;
+      }
+
+      #feedbackName{
+            font-size: 14px;
+            width: 300px;
+            margin-bottom: 10px;
+            padding: 10px;
+      }
+      #feedback{
+            font-size: 14px;
+            width: 300px;
+            margin-bottom: 10px;
+            padding: 10px;
+            padding-bottom: 50px;
+      }
+
+      #feedback-button{
+            display: block;
+            font-size: 15px;
+            border-radius: 20px;
+            padding: 5px;
+            background-color: #000000;
+            color: #ffffff;
+      }
+
+      #feedback-button:hover{
+            background-color: #08e2ff;
       }
 }
     
