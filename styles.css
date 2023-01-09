@@ -14,6 +14,7 @@ html, body {
 .main-container{
       display: flex;
       flex-direction: column;
+      align-items: center;
 }
 
 .single-container{
@@ -48,7 +49,8 @@ html, body {
 
 .profile-pic-img{
       margin-top: 5px;
-      width: 400px;
+      width: 365px;
+      margin-left: -10px;
       border-radius: 8px;
       border: 2px solid #ffffff;
 }
@@ -78,6 +80,16 @@ html, body {
     margin-bottom: 10px;
 }
 
+/* share on whats app container */
+.whatsapp-container{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content:flex-start;
+      
+}
+
+
 .contact-button:hover, .views-label:hover{
       background-color:#15a6b9;
 }
@@ -90,6 +102,7 @@ a{
       font-size: 15px;
       color: #708f85;
       font-weight: bolder;
+      font-family: 'Courier New', Courier, monospace;
 }
 
 .shadow-buttons-container {
@@ -194,7 +207,6 @@ padding: 10px;
             width: 450px;
             align-content: center;
             margin-left: 30px;
-
       }
 
       .views-label{
@@ -235,8 +247,9 @@ padding: 10px;
       }
 
       .whatsapp-container{
-            padding-top: 20px;
+            margin-top: 20px;
             display: flex;
+            flex-direction: column;
       }
 
       .input-textbox{
