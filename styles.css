@@ -21,13 +21,10 @@ html, body {
       width: 420px;
       margin: 20px;
       display: block;
-      padding-left: 35px;
-      padding-right: 15px;
-      padding-top: 15px;
+      padding: 20px 20px 0 30px;
       border-style: outset;
       border-color: #15a6b9;
       background-image: url(./images/5305323.jpg);
-      /* background-image: url(./images/bgwood.jpg); */
 }
 
 .views-label{
@@ -61,15 +58,15 @@ html, body {
       color: #000000;
 }
 
-.contact-buttons {
-      padding-top: 20px;
-      margin-bottom: 20px;
+.black-buttons-container {
+      display: flex;
+      margin: 20px 0 10px 0;
+      justify-content:space-around;
 }
 
-.contact-button {
-    padding: 6px 10px;
-    border-radius: 50px;
-    width: 100px;
+.black-button {
+    padding: 8px 12px;
+    border-radius: 15px;
     font-size: 12px;
     box-shadow: 0 1px 4px rgb(0 0 0 / 20%), 0 0 40px rgb(255 251 251 / 10%) inset;
     text-align: center;
@@ -80,17 +77,7 @@ html, body {
     margin-bottom: 10px;
 }
 
-/* share on whats app container */
-.whatsapp-container{
-      margin-top: 10px;
-      display: flex;
-      flex-direction: row;
-      justify-content:flex-start;
-      
-}
-
-
-.contact-button:hover, .views-label:hover{
+.black-button:hover, .views-label:hover{
       background-color:#15a6b9;
 }
 
@@ -103,6 +90,61 @@ a{
       color: #708f85;
       font-weight: bolder;
       font-family: 'Courier New', Courier, monospace;
+}
+
+/* share on whats app container */
+.whatsapp-container{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-around;
+}
+
+/* Whatsapp share button */
+.whatsapp-button{
+      background-color: #51B14D;
+      color:#ffffff;
+      width: 80px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      padding-bottom: 4px;
+}
+
+.input-wrapper{
+      margin-left: -5px;
+}
+
+#whatsapp-input{
+      border-radius: 4px;
+      font-size: 12px;
+      padding: 8px 12px;
+}
+
+.whatsapp-link, .contact-link{
+      color: #ffffff !important;
+}
+
+.whatsapp-container span{
+      font-size: 12px;
+}
+.whatsapp-container i{
+      font-size: 12px;
+}
+/* Contact button */
+.save-vcf-button{
+      background-color: #15a6b9;
+      color:#ffffff !important;
+      border: none;
+      width: 75px;
+      border-radius: 4px;
+}
+.save-vcf-button span{
+      font-size: 12px;
+}
+.save-vcf-button i{
+      font-size: 12px;
 }
 
 .shadow-buttons-container {
@@ -122,29 +164,11 @@ padding: 10px;
     text-align: center;
     border-radius: 10px;
 }
-.shadow-button:hover{
+.shadow-button:hover, .save-vcf-button:hover{
     background-color: #15b946;
     color:#000000;
 }
 
-/* .phonebook-wraper{
-      padding: 10px;
-    width: 250px;
-    margin-top: 8px;
-    margin-right: 5px;
-    background-color: #15a6b9;
-    color:#ffffff;
-    font-size: 14px;
-    border-bottom: 4px solid #000000;
-    text-align: center;
-    margin-left: 1px;
-    border-radius: 10px;
-} */
-
-.add-to-phnebook-container:hover{
-      background-color: #15b946;
-      color:#ffffff;
-}
 
 .shadow-button-icon{
       margin-right: 10px;
@@ -234,10 +258,10 @@ padding: 10px;
       .customer-name{
             font-size:18px;
       }
-      .contact-buttons{
+      .black-buttons-container{
             display: flex;
       }
-      .contact-button {
+      .black-button {
             width: 105px;
             font-size: 12px;
       }
@@ -259,24 +283,11 @@ padding: 10px;
             margin-right: 10px;
       }
       
-      .share-on-whatsapp-button{
-            padding: 8px;
-            width: 18px;
-            font-size: 16px;
-            display: inline-block;
+      .whatsapp-button-container{
             background-color: #51B14D;
-            border-radius: 7px;
-            color: white;
-            border: 1px solid #ffffff;
-      }
-      .share-on-whatsapp-button:hover{
-            background-color:#08e2ff;
-            color: #000000;
-            border: 1px solid #08e2ff;
-      }
-
-      .button-wrapper{
-            width: 20px;
+            width: 18px;
+            height: 5px;
+            font-size: 16px;
       }
 
       .phonebook-wraper{
